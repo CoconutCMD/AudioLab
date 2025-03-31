@@ -11,8 +11,11 @@ add_executable(AudioLab
 )
 
 add_subdirectory(JUCE/JUCE)
-include_directories(/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules)
-include_directories(/usr/include/freetype2)
+include_directories(${CMAKE_SOURCE_DIR}/JUCE/JUCE/modules)
+
+# Find and include Freetype dynamically
+find_package(Freetype REQUIRED)
+include_directories(${FREETYPE_INCLUDE_DIRS})
 
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(GTK3 REQUIRED gtk+-3.0)

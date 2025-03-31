@@ -3,6 +3,8 @@
 MainComponent::MainComponent()
 {
     setAudioChannels(1, 0); // 1 input channel, 0 output channels
+    setSize (800, 600);
+
 }
 
 MainComponent::~MainComponent()
