@@ -1,11 +1,45 @@
 file(REMOVE_RECURSE
   "AudioLab"
   "AudioLab.pdb"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o.d"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o.d"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o.d"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o.d"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o.d"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o.d"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o.d"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core.cpp.o"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core.cpp.o.d"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o.d"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o.d"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_events/juce_events.cpp.o"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_events/juce_events.cpp.o.d"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp.o"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp.o.d"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o.d"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o.d"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o.d"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o"
+  "CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o.d"
+  "CMakeFiles/AudioLab.dir/inputProcessor.cpp.o"
+  "CMakeFiles/AudioLab.dir/inputProcessor.cpp.o.d"
   "CMakeFiles/AudioLab.dir/main.cpp.o"
   "CMakeFiles/AudioLab.dir/main.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C CXX)
   include(CMakeFiles/AudioLab.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

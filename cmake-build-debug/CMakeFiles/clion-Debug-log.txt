@@ -1,11 +1,4 @@
 C:\WINDOWS\system32\wsl.exe --distribution Ubuntu-22.04 --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/c/Users/Murat/Desktop/AudioLab -B /mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug; exitcode=$?; sleep 0.001; (exit $exitcode)"
--- Checking for module 'gl'
---   No package 'gl' found
--- Checking for module 'libcurl'
---   No package 'libcurl' found
--- Checking for modules 'webkit2gtk-4.0;gtk+-x11-3.0'
---   No package 'webkit2gtk-4.0' found
---   No package 'gtk+-x11-3.0' found
 -- Configuring juceaide
 -- Building juceaide
 -- Exporting juceaide

@@ -11,10 +11,10 @@
 				<Option working_dir="/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="AudioLab">
@@ -24,21 +24,60 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DLINUX=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
 					<Add directory="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules"/>
 					<Add directory="/usr/include/freetype2"/>
-					<Add directory="/usr/include/c++/11"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
-					<Add directory="/usr/include/c++/11/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/gtk-3.0"/>
+					<Add directory="/usr/include/at-spi2-atk/2.0"/>
+					<Add directory="/usr/include/at-spi-2.0"/>
+					<Add directory="/usr/include/dbus-1.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/dbus-1.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/libmount"/>
+					<Add directory="/usr/include/blkid"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/webkitgtk-4.0"/>
+					<Add directory="/usr/include/libsoup-2.4"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/format_types/LV2_SDK"/>
+					<Add directory="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lv2"/>
+					<Add directory="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/serd"/>
+					<Add directory="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord"/>
+					<Add directory="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord/src"/>
+					<Add directory="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sratom"/>
+					<Add directory="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv"/>
+					<Add directory="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv/src"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 AudioLab"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 AudioLab"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="AudioLab/fast">
@@ -48,84 +87,210 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DLINUX=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
 					<Add directory="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules"/>
 					<Add directory="/usr/include/freetype2"/>
-					<Add directory="/usr/include/c++/11"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
-					<Add directory="/usr/include/c++/11/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/gtk-3.0"/>
+					<Add directory="/usr/include/at-spi2-atk/2.0"/>
+					<Add directory="/usr/include/at-spi-2.0"/>
+					<Add directory="/usr/include/dbus-1.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/dbus-1.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/libmount"/>
+					<Add directory="/usr/include/blkid"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/webkitgtk-4.0"/>
+					<Add directory="/usr/include/libsoup-2.4"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/format_types/LV2_SDK"/>
+					<Add directory="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lv2"/>
+					<Add directory="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/serd"/>
+					<Add directory="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord"/>
+					<Add directory="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord/src"/>
+					<Add directory="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sratom"/>
+					<Add directory="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv"/>
+					<Add directory="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv/src"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 AudioLab/fast"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 AudioLab/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list_install_components">
 				<Option working_dir="/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install">
 				<Option working_dir="/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/local">
 				<Option working_dir="/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
 				<Option working_dir="/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.h">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.h">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.h">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.h">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.h">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_core/juce_core.cpp">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_core/juce_core.h">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.h">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_events/juce_events.cpp">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_events/juce_events.h">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_graphics/juce_graphics.h">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.h">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.h">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/inputProcessor.cpp">
+			<Option target="AudioLab"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/inputProcessor.h">
+			<Option target="AudioLab"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/Murat/Desktop/AudioLab/main.cpp">
 			<Option target="AudioLab"/>
 		</Unit>

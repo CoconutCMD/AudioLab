@@ -83,17 +83,294 @@ CMakeFiles/AudioLab.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AudioLab.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Murat/Desktop/AudioLab/main.cpp -o CMakeFiles/AudioLab.dir/main.cpp.s
 
+CMakeFiles/AudioLab.dir/inputProcessor.cpp.o: CMakeFiles/AudioLab.dir/flags.make
+CMakeFiles/AudioLab.dir/inputProcessor.cpp.o: ../inputProcessor.cpp
+CMakeFiles/AudioLab.dir/inputProcessor.cpp.o: CMakeFiles/AudioLab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AudioLab.dir/inputProcessor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AudioLab.dir/inputProcessor.cpp.o -MF CMakeFiles/AudioLab.dir/inputProcessor.cpp.o.d -o CMakeFiles/AudioLab.dir/inputProcessor.cpp.o -c /mnt/c/Users/Murat/Desktop/AudioLab/inputProcessor.cpp
+
+CMakeFiles/AudioLab.dir/inputProcessor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AudioLab.dir/inputProcessor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Murat/Desktop/AudioLab/inputProcessor.cpp > CMakeFiles/AudioLab.dir/inputProcessor.cpp.i
+
+CMakeFiles/AudioLab.dir/inputProcessor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AudioLab.dir/inputProcessor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Murat/Desktop/AudioLab/inputProcessor.cpp -o CMakeFiles/AudioLab.dir/inputProcessor.cpp.s
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core.cpp.o: CMakeFiles/AudioLab.dir/flags.make
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core.cpp.o: ../JUCE/JUCE/modules/juce_core/juce_core.cpp
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core.cpp.o: CMakeFiles/AudioLab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core.cpp.o -MF CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core.cpp.o.d -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core.cpp.o -c /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_core/juce_core.cpp
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_core/juce_core.cpp > CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core.cpp.i
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_core/juce_core.cpp -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core.cpp.s
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o: CMakeFiles/AudioLab.dir/flags.make
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o: ../JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o: CMakeFiles/AudioLab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o -MF CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o.d -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o -c /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp > CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o: CMakeFiles/AudioLab.dir/flags.make
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o: ../JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o: CMakeFiles/AudioLab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o -MF CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o.d -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o -c /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp > CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.i
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.s
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o: CMakeFiles/AudioLab.dir/flags.make
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o: ../JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o: CMakeFiles/AudioLab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o -MF CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o.d -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o -c /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp > CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.i
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.s
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o: CMakeFiles/AudioLab.dir/flags.make
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o: ../JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o: CMakeFiles/AudioLab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o -MF CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o.d -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o -c /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp > CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o: CMakeFiles/AudioLab.dir/flags.make
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o: ../JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o: CMakeFiles/AudioLab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o -MF CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o.d -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o -c /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp > CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o: CMakeFiles/AudioLab.dir/flags.make
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o: ../JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o: CMakeFiles/AudioLab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o -MF CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o.d -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o -c /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp > CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.i
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.s
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o: CMakeFiles/AudioLab.dir/flags.make
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o: ../JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o: CMakeFiles/AudioLab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o -MF CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o.d -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o -c /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp > CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.i
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.s
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp.o: CMakeFiles/AudioLab.dir/flags.make
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp.o: ../JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp.o: CMakeFiles/AudioLab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp.o -MF CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp.o.d -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp.o -c /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp > CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp.i
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp.s
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o: CMakeFiles/AudioLab.dir/flags.make
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o: ../JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o: CMakeFiles/AudioLab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o -MF CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o.d -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o -c /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp > CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o: CMakeFiles/AudioLab.dir/flags.make
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o: ../JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o: CMakeFiles/AudioLab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o -MF CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o.d -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o -c /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c > CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_events/juce_events.cpp.o: CMakeFiles/AudioLab.dir/flags.make
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_events/juce_events.cpp.o: ../JUCE/JUCE/modules/juce_events/juce_events.cpp
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_events/juce_events.cpp.o: CMakeFiles/AudioLab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_events/juce_events.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_events/juce_events.cpp.o -MF CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_events/juce_events.cpp.o.d -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_events/juce_events.cpp.o -c /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_events/juce_events.cpp
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_events/juce_events.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_events/juce_events.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_events/juce_events.cpp > CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_events/juce_events.cpp.i
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_events/juce_events.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_events/juce_events.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_events/juce_events.cpp -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_events/juce_events.cpp.s
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o: CMakeFiles/AudioLab.dir/flags.make
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o: ../JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o: CMakeFiles/AudioLab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o -MF CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o.d -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o -c /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp > CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp.i
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp.s
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o: CMakeFiles/AudioLab.dir/flags.make
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o: ../JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o: CMakeFiles/AudioLab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o -MF CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o.d -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o -c /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp > CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.i
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.s
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o: CMakeFiles/AudioLab.dir/flags.make
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o: ../JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o: CMakeFiles/AudioLab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o -MF CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o.d -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o -c /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp > CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.i
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.s
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o: CMakeFiles/AudioLab.dir/flags.make
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o: ../JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o: CMakeFiles/AudioLab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o -MF CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o.d -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o -c /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp > CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.i
+
+CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp -o CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.s
+
 # Object files for target AudioLab
 AudioLab_OBJECTS = \
-"CMakeFiles/AudioLab.dir/main.cpp.o"
+"CMakeFiles/AudioLab.dir/main.cpp.o" \
+"CMakeFiles/AudioLab.dir/inputProcessor.cpp.o" \
+"CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core.cpp.o" \
+"CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o" \
+"CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o" \
+"CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o" \
+"CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o" \
+"CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o" \
+"CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o" \
+"CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o" \
+"CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp.o" \
+"CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o" \
+"CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o" \
+"CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_events/juce_events.cpp.o" \
+"CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o" \
+"CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o" \
+"CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o" \
+"CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o"
 
 # External object files for target AudioLab
 AudioLab_EXTERNAL_OBJECTS =
 
 AudioLab: CMakeFiles/AudioLab.dir/main.cpp.o
+AudioLab: CMakeFiles/AudioLab.dir/inputProcessor.cpp.o
+AudioLab: CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core.cpp.o
+AudioLab: CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
+AudioLab: CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o
+AudioLab: CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o
+AudioLab: CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
+AudioLab: CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
+AudioLab: CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o
+AudioLab: CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o
+AudioLab: CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics.cpp.o
+AudioLab: CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+AudioLab: CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+AudioLab: CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_events/juce_events.cpp.o
+AudioLab: CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o
+AudioLab: CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o
+AudioLab: CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o
+AudioLab: CMakeFiles/AudioLab.dir/JUCE/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o
 AudioLab: CMakeFiles/AudioLab.dir/build.make
+AudioLab: /usr/lib/x86_64-linux-gnu/libcurl.so
+AudioLab: /usr/lib/x86_64-linux-gnu/libcurl.so
+AudioLab: /usr/lib/x86_64-linux-gnu/libfontconfig.so
+AudioLab: /usr/lib/x86_64-linux-gnu/libfreetype.so
+AudioLab: /usr/lib/x86_64-linux-gnu/libasound.so
 AudioLab: CMakeFiles/AudioLab.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AudioLab"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Murat/Desktop/AudioLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable AudioLab"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AudioLab.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

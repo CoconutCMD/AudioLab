@@ -267,6 +267,57 @@ PKG_CONFIG_ARGN:STRING=
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
 //Path to a library.
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_atk-1.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libatk-1.0.so
+
+//Path to a library.
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_cairo:FILEPATH=/usr/lib/x86_64-linux-gnu/libcairo.so
+
+//Path to a library.
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_cairo-gobject:FILEPATH=/usr/lib/x86_64-linux-gnu/libcairo-gobject.so
+
+//Path to a library.
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_gdk-3:FILEPATH=/usr/lib/x86_64-linux-gnu/libgdk-3.so
+
+//Path to a library.
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_gdk_pixbuf-2.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so
+
+//Path to a library.
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_gio-2.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libgio-2.0.so
+
+//Path to a library.
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_glib-2.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libglib-2.0.so
+
+//Path to a library.
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_gmodule-2.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so
+
+//Path to a library.
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_gobject-2.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libgobject-2.0.so
+
+//Path to a library.
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_gtk-3:FILEPATH=/usr/lib/x86_64-linux-gnu/libgtk-3.so
+
+//Path to a library.
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_harfbuzz:FILEPATH=/usr/lib/x86_64-linux-gnu/libharfbuzz.so
+
+//Path to a library.
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_javascriptcoregtk-4.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libjavascriptcoregtk-4.0.so
+
+//Path to a library.
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_pango-1.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libpango-1.0.so
+
+//Path to a library.
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_pangocairo-1.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so
+
+//Path to a library.
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_soup-2.4:FILEPATH=/usr/lib/x86_64-linux-gnu/libsoup-2.4.so
+
+//Path to a library.
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_webkit2gtk-4.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.0.so
+
+//Path to a library.
+pkgcfg_lib_JUCE_CURL_LINUX_DEPS_curl:FILEPATH=/usr/lib/x86_64-linux-gnu/libcurl.so
+
+//Path to a library.
 pkgcfg_lib_juce_audio_devices_LINUX_DEPS_asound:FILEPATH=/usr/lib/x86_64-linux-gnu/libasound.so
 
 //Path to a library.
@@ -274,6 +325,9 @@ pkgcfg_lib_juce_graphics_LINUX_DEPS_fontconfig:FILEPATH=/usr/lib/x86_64-linux-gn
 
 //Path to a library.
 pkgcfg_lib_juce_graphics_LINUX_DEPS_freetype:FILEPATH=/usr/lib/x86_64-linux-gnu/libfreetype.so
+
+//Path to a library.
+pkgcfg_lib_juce_opengl_LINUX_DEPS_GL:FILEPATH=/usr/lib/x86_64-linux-gnu/libGL.so
 
 
 ########################
@@ -423,58 +477,80 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.2()]
-JUCE_BROWSER_LINUX_DEPS_CFLAGS:INTERNAL=
+JUCE_BROWSER_LINUX_DEPS_CFLAGS:INTERNAL=-pthread;-I/usr/include/webkitgtk-4.0;-I/usr/include/gtk-3.0;-I/usr/include/libsoup-2.4;-I/usr/include/libxml2;-I/usr/include/webkitgtk-4.0;-I/usr/include/gtk-3.0;-I/usr/include/at-spi2-atk/2.0;-I/usr/include/at-spi-2.0;-I/usr/include/dbus-1.0;-I/usr/lib/x86_64-linux-gnu/dbus-1.0/include;-I/usr/include/gtk-3.0;-I/usr/include/gio-unix-2.0;-I/usr/include/cairo;-I/usr/include/pango-1.0;-I/usr/include/harfbuzz;-I/usr/include/pango-1.0;-I/usr/include/fribidi;-I/usr/include/harfbuzz;-I/usr/include/atk-1.0;-I/usr/include/cairo;-I/usr/include/pixman-1;-I/usr/include/uuid;-I/usr/include/freetype2;-I/usr/include/gdk-pixbuf-2.0;-I/usr/include/libpng16;-I/usr/include/x86_64-linux-gnu;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/glib-2.0;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include
 JUCE_BROWSER_LINUX_DEPS_CFLAGS_I:INTERNAL=
-JUCE_BROWSER_LINUX_DEPS_CFLAGS_OTHER:INTERNAL=
-JUCE_BROWSER_LINUX_DEPS_FOUND:INTERNAL=
+JUCE_BROWSER_LINUX_DEPS_CFLAGS_OTHER:INTERNAL=-pthread
+JUCE_BROWSER_LINUX_DEPS_FOUND:INTERNAL=1
 JUCE_BROWSER_LINUX_DEPS_INCLUDEDIR:INTERNAL=
+JUCE_BROWSER_LINUX_DEPS_INCLUDE_DIRS:INTERNAL=/usr/include/webkitgtk-4.0;/usr/include/gtk-3.0;/usr/include/libsoup-2.4;/usr/include/libxml2;/usr/include/webkitgtk-4.0;/usr/include/gtk-3.0;/usr/include/at-spi2-atk/2.0;/usr/include/at-spi-2.0;/usr/include/dbus-1.0;/usr/lib/x86_64-linux-gnu/dbus-1.0/include;/usr/include/gtk-3.0;/usr/include/gio-unix-2.0;/usr/include/cairo;/usr/include/pango-1.0;/usr/include/harfbuzz;/usr/include/pango-1.0;/usr/include/fribidi;/usr/include/harfbuzz;/usr/include/atk-1.0;/usr/include/cairo;/usr/include/pixman-1;/usr/include/uuid;/usr/include/freetype2;/usr/include/gdk-pixbuf-2.0;/usr/include/libpng16;/usr/include/x86_64-linux-gnu;/usr/include/libmount;/usr/include/blkid;/usr/include/glib-2.0;/usr/lib/x86_64-linux-gnu/glib-2.0/include
+JUCE_BROWSER_LINUX_DEPS_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lwebkit2gtk-4.0;-lgtk-3;-lsoup-2.4;-Wl,--export-dynamic;-lgmodule-2.0;-pthread;-ljavascriptcoregtk-4.0;-lgtk-3;-lgdk-3;-lpangocairo-1.0;-lpango-1.0;-lharfbuzz;-latk-1.0;-lcairo-gobject;-lcairo;-lgdk_pixbuf-2.0;-lgio-2.0;-lgobject-2.0;-lglib-2.0
+JUCE_BROWSER_LINUX_DEPS_LDFLAGS_OTHER:INTERNAL=-Wl,--export-dynamic;-pthread
 JUCE_BROWSER_LINUX_DEPS_LIBDIR:INTERNAL=
+JUCE_BROWSER_LINUX_DEPS_LIBRARIES:INTERNAL=webkit2gtk-4.0;gtk-3;soup-2.4;gmodule-2.0;javascriptcoregtk-4.0;gtk-3;gdk-3;pangocairo-1.0;pango-1.0;harfbuzz;atk-1.0;cairo-gobject;cairo;gdk_pixbuf-2.0;gio-2.0;gobject-2.0;glib-2.0
+JUCE_BROWSER_LINUX_DEPS_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
 JUCE_BROWSER_LINUX_DEPS_LIBS:INTERNAL=
 JUCE_BROWSER_LINUX_DEPS_LIBS_L:INTERNAL=
 JUCE_BROWSER_LINUX_DEPS_LIBS_OTHER:INTERNAL=
 JUCE_BROWSER_LINUX_DEPS_LIBS_PATHS:INTERNAL=
 JUCE_BROWSER_LINUX_DEPS_MODULE_NAME:INTERNAL=
 JUCE_BROWSER_LINUX_DEPS_PREFIX:INTERNAL=
-JUCE_BROWSER_LINUX_DEPS_STATIC_CFLAGS:INTERNAL=
+JUCE_BROWSER_LINUX_DEPS_STATIC_CFLAGS:INTERNAL=-pthread;-I/usr/include/webkitgtk-4.0;-I/usr/include/gtk-3.0;-I/usr/include/libsoup-2.4;-I/usr/include/libxml2;-I/usr/include/webkitgtk-4.0;-I/usr/include/gtk-3.0;-I/usr/include/at-spi2-atk/2.0;-I/usr/include/at-spi-2.0;-I/usr/include/dbus-1.0;-I/usr/lib/x86_64-linux-gnu/dbus-1.0/include;-I/usr/include/gtk-3.0;-I/usr/include/gio-unix-2.0;-I/usr/include/cairo;-I/usr/include/pango-1.0;-I/usr/include/harfbuzz;-I/usr/include/pango-1.0;-I/usr/include/fribidi;-I/usr/include/harfbuzz;-I/usr/include/atk-1.0;-I/usr/include/cairo;-I/usr/include/pixman-1;-I/usr/include/uuid;-I/usr/include/freetype2;-I/usr/include/gdk-pixbuf-2.0;-I/usr/include/libpng16;-I/usr/include/x86_64-linux-gnu;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/glib-2.0;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include
 JUCE_BROWSER_LINUX_DEPS_STATIC_CFLAGS_I:INTERNAL=
-JUCE_BROWSER_LINUX_DEPS_STATIC_CFLAGS_OTHER:INTERNAL=
+JUCE_BROWSER_LINUX_DEPS_STATIC_CFLAGS_OTHER:INTERNAL=-pthread
+JUCE_BROWSER_LINUX_DEPS_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/webkitgtk-4.0;/usr/include/gtk-3.0;/usr/include/libsoup-2.4;/usr/include/libxml2;/usr/include/webkitgtk-4.0;/usr/include/gtk-3.0;/usr/include/at-spi2-atk/2.0;/usr/include/at-spi-2.0;/usr/include/dbus-1.0;/usr/lib/x86_64-linux-gnu/dbus-1.0/include;/usr/include/gtk-3.0;/usr/include/gio-unix-2.0;/usr/include/cairo;/usr/include/pango-1.0;/usr/include/harfbuzz;/usr/include/pango-1.0;/usr/include/fribidi;/usr/include/harfbuzz;/usr/include/atk-1.0;/usr/include/cairo;/usr/include/pixman-1;/usr/include/uuid;/usr/include/freetype2;/usr/include/gdk-pixbuf-2.0;/usr/include/libpng16;/usr/include/x86_64-linux-gnu;/usr/include/libmount;/usr/include/blkid;/usr/include/glib-2.0;/usr/lib/x86_64-linux-gnu/glib-2.0/include
+JUCE_BROWSER_LINUX_DEPS_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu/mit-krb5;-L/usr/lib/x86_64-linux-gnu;-L/usr/lib;-L/usr/lib/x86_64-linux-gnu;-lwebkit2gtk-4.0;-lgtk-3;-lsoup-2.4;-Wl,-Bsymbolic-functions;-flto=auto;-ffat-lto-objects;-flto=auto;-Wl,-z,relro;-lgssapi_krb5;-lkrb5;-lk5crypto;-lcom_err;-lxml2;-licui18n;-licuuc;-licudata;-lz;-llzma;-lm;-lsqlite3;-lm;-lz;-lpsl;-ljavascriptcoregtk-4.0;-lgtk-3;-latk-bridge-2.0;-latspi;-lXtst;-ldbus-1;-lsystemd;-Wl,--export-dynamic;-lgdk-3;-lXinerama;-lXi;-lXrandr;-lXcursor;-lXcomposite;-lXdamage;-lXfixes;-lxkbcommon;-lwayland-cursor;-lwayland-egl;-lwayland-client;-lm;-pthread;-lepoxy;-ldl;-lGL;-lEGL;-lpangocairo-1.0;-lm;-lpangoft2-1.0;-lm;-lharfbuzz-gobject;-lpango-1.0;-lm;-lfribidi;-lthai;-ldatrie;-lXft;-lharfbuzz;-lm;-lgraphite2;-latk-1.0;-lcairo-gobject;-lcairo;-lz;-lpixman-1;-lfontconfig;-luuid;-lexpat;-lm;-lfreetype;-lbrotlidec;-lbrotlicommon;-lxcb-shm;-lxcb-render;-lXrender;-lXext;-lX11;-lpthread;-lxcb;-lXau;-lXdmcp;-lgdk_pixbuf-2.0;-lm;-lpng16;-lm;-lz;-lm;-ljpeg;-ltiff;-lwebp;-lzstd;-llzma;-ljbig;-ljpeg;-ldeflate;-lz;-lm;-lgio-2.0;-lgmodule-2.0;-pthread;-lz;-lmount;-ldl;-lblkid;-lselinux;-lsepol;-lpcre2-8;-lgobject-2.0;-lffi;-lglib-2.0;-pthread;-lm;-lpcre
+JUCE_BROWSER_LINUX_DEPS_STATIC_LDFLAGS_OTHER:INTERNAL=-Wl,-Bsymbolic-functions;-flto=auto;-ffat-lto-objects;-flto=auto;-Wl,-z,relro;-Wl,--export-dynamic;-pthread
 JUCE_BROWSER_LINUX_DEPS_STATIC_LIBDIR:INTERNAL=
+JUCE_BROWSER_LINUX_DEPS_STATIC_LIBRARIES:INTERNAL=webkit2gtk-4.0;gtk-3;soup-2.4;gssapi_krb5;krb5;k5crypto;com_err;xml2;icui18n;icuuc;icudata;z;lzma;m;sqlite3;m;z;psl;javascriptcoregtk-4.0;gtk-3;atk-bridge-2.0;atspi;Xtst;dbus-1;systemd;gdk-3;Xinerama;Xi;Xrandr;Xcursor;Xcomposite;Xdamage;Xfixes;xkbcommon;wayland-cursor;wayland-egl;wayland-client;m;epoxy;dl;GL;EGL;pangocairo-1.0;m;pangoft2-1.0;m;harfbuzz-gobject;pango-1.0;m;fribidi;thai;datrie;Xft;harfbuzz;m;graphite2;atk-1.0;cairo-gobject;cairo;z;pixman-1;fontconfig;uuid;expat;m;freetype;brotlidec;brotlicommon;xcb-shm;xcb-render;Xrender;Xext;X11;pthread;xcb;Xau;Xdmcp;gdk_pixbuf-2.0;m;png16;m;z;m;jpeg;tiff;webp;zstd;lzma;jbig;jpeg;deflate;z;m;gio-2.0;gmodule-2.0;z;mount;dl;blkid;selinux;sepol;pcre2-8;gobject-2.0;ffi;glib-2.0;m;pcre
+JUCE_BROWSER_LINUX_DEPS_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu/mit-krb5;/usr/lib/x86_64-linux-gnu;/usr/lib;/usr/lib/x86_64-linux-gnu
 JUCE_BROWSER_LINUX_DEPS_STATIC_LIBS:INTERNAL=
 JUCE_BROWSER_LINUX_DEPS_STATIC_LIBS_L:INTERNAL=
 JUCE_BROWSER_LINUX_DEPS_STATIC_LIBS_OTHER:INTERNAL=
 JUCE_BROWSER_LINUX_DEPS_STATIC_LIBS_PATHS:INTERNAL=
 JUCE_BROWSER_LINUX_DEPS_VERSION:INTERNAL=
-JUCE_BROWSER_LINUX_DEPS_gtk+-x11-3.0_INCLUDEDIR:INTERNAL=
-JUCE_BROWSER_LINUX_DEPS_gtk+-x11-3.0_LIBDIR:INTERNAL=
-JUCE_BROWSER_LINUX_DEPS_gtk+-x11-3.0_PREFIX:INTERNAL=
-JUCE_BROWSER_LINUX_DEPS_gtk+-x11-3.0_VERSION:INTERNAL=
-JUCE_BROWSER_LINUX_DEPS_webkit2gtk-4.0_INCLUDEDIR:INTERNAL=
-JUCE_BROWSER_LINUX_DEPS_webkit2gtk-4.0_LIBDIR:INTERNAL=
-JUCE_BROWSER_LINUX_DEPS_webkit2gtk-4.0_PREFIX:INTERNAL=
-JUCE_BROWSER_LINUX_DEPS_webkit2gtk-4.0_VERSION:INTERNAL=
+JUCE_BROWSER_LINUX_DEPS_gtk+-x11-3.0_INCLUDEDIR:INTERNAL=/usr/include
+JUCE_BROWSER_LINUX_DEPS_gtk+-x11-3.0_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+JUCE_BROWSER_LINUX_DEPS_gtk+-x11-3.0_MODULE_NAME:INTERNAL=gtk+-x11-3.0
+JUCE_BROWSER_LINUX_DEPS_gtk+-x11-3.0_PREFIX:INTERNAL=/usr
+JUCE_BROWSER_LINUX_DEPS_gtk+-x11-3.0_VERSION:INTERNAL=3.24.33
+JUCE_BROWSER_LINUX_DEPS_webkit2gtk-4.0_INCLUDEDIR:INTERNAL=/usr/include
+JUCE_BROWSER_LINUX_DEPS_webkit2gtk-4.0_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+JUCE_BROWSER_LINUX_DEPS_webkit2gtk-4.0_MODULE_NAME:INTERNAL=webkit2gtk-4.0
+JUCE_BROWSER_LINUX_DEPS_webkit2gtk-4.0_PREFIX:INTERNAL=/usr
+JUCE_BROWSER_LINUX_DEPS_webkit2gtk-4.0_VERSION:INTERNAL=2.46.6
 //The path to the folder holding this file and other resources
 JUCE_CMAKE_UTILS_DIR:INTERNAL=/mnt/c/Users/Murat/Desktop/AudioLab/JUCE/JUCE/extras/Build/CMake
-JUCE_CURL_LINUX_DEPS_CFLAGS:INTERNAL=
+JUCE_CURL_LINUX_DEPS_CFLAGS:INTERNAL=-I/usr/include/x86_64-linux-gnu
 JUCE_CURL_LINUX_DEPS_CFLAGS_I:INTERNAL=
 JUCE_CURL_LINUX_DEPS_CFLAGS_OTHER:INTERNAL=
-JUCE_CURL_LINUX_DEPS_FOUND:INTERNAL=
-JUCE_CURL_LINUX_DEPS_INCLUDEDIR:INTERNAL=
-JUCE_CURL_LINUX_DEPS_LIBDIR:INTERNAL=
+JUCE_CURL_LINUX_DEPS_FOUND:INTERNAL=1
+JUCE_CURL_LINUX_DEPS_INCLUDEDIR:INTERNAL=/usr/include/x86_64-linux-gnu
+JUCE_CURL_LINUX_DEPS_INCLUDE_DIRS:INTERNAL=/usr/include/x86_64-linux-gnu
+JUCE_CURL_LINUX_DEPS_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lcurl
+JUCE_CURL_LINUX_DEPS_LDFLAGS_OTHER:INTERNAL=
+JUCE_CURL_LINUX_DEPS_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+JUCE_CURL_LINUX_DEPS_LIBRARIES:INTERNAL=curl
+JUCE_CURL_LINUX_DEPS_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
 JUCE_CURL_LINUX_DEPS_LIBS:INTERNAL=
 JUCE_CURL_LINUX_DEPS_LIBS_L:INTERNAL=
 JUCE_CURL_LINUX_DEPS_LIBS_OTHER:INTERNAL=
 JUCE_CURL_LINUX_DEPS_LIBS_PATHS:INTERNAL=
-JUCE_CURL_LINUX_DEPS_MODULE_NAME:INTERNAL=
-JUCE_CURL_LINUX_DEPS_PREFIX:INTERNAL=
-JUCE_CURL_LINUX_DEPS_STATIC_CFLAGS:INTERNAL=
+JUCE_CURL_LINUX_DEPS_MODULE_NAME:INTERNAL=libcurl
+JUCE_CURL_LINUX_DEPS_PREFIX:INTERNAL=/usr
+JUCE_CURL_LINUX_DEPS_STATIC_CFLAGS:INTERNAL=-I/usr/include/x86_64-linux-gnu
 JUCE_CURL_LINUX_DEPS_STATIC_CFLAGS_I:INTERNAL=
 JUCE_CURL_LINUX_DEPS_STATIC_CFLAGS_OTHER:INTERNAL=
+JUCE_CURL_LINUX_DEPS_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/x86_64-linux-gnu
+JUCE_CURL_LINUX_DEPS_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu/mit-krb5;-lcurl;-lnghttp2;-lidn2;-lrtmp;-lssh;-lpsl;-lssl;-lcrypto;-lssl;-lcrypto;-lgssapi_krb5;-llber;-lldap;-llber;-lzstd;-lbrotlidec;-lz
+JUCE_CURL_LINUX_DEPS_STATIC_LDFLAGS_OTHER:INTERNAL=
 JUCE_CURL_LINUX_DEPS_STATIC_LIBDIR:INTERNAL=
+JUCE_CURL_LINUX_DEPS_STATIC_LIBRARIES:INTERNAL=curl;nghttp2;idn2;rtmp;ssh;psl;ssl;crypto;ssl;crypto;gssapi_krb5;lber;ldap;lber;zstd;brotlidec;z
+JUCE_CURL_LINUX_DEPS_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu/mit-krb5
 JUCE_CURL_LINUX_DEPS_STATIC_LIBS:INTERNAL=
 JUCE_CURL_LINUX_DEPS_STATIC_LIBS_L:INTERNAL=
 JUCE_CURL_LINUX_DEPS_STATIC_LIBS_OTHER:INTERNAL=
 JUCE_CURL_LINUX_DEPS_STATIC_LIBS_PATHS:INTERNAL=
-JUCE_CURL_LINUX_DEPS_VERSION:INTERNAL=
+JUCE_CURL_LINUX_DEPS_VERSION:INTERNAL=7.81.0
 JUCE_CURL_LINUX_DEPS_libcurl_INCLUDEDIR:INTERNAL=
 JUCE_CURL_LINUX_DEPS_libcurl_LIBDIR:INTERNAL=
 JUCE_CURL_LINUX_DEPS_libcurl_PREFIX:INTERNAL=
@@ -488,8 +564,11 @@ JUCE_TARGET_ARCHITECTURE:INTERNAL=x86_64
 PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
+__pkg_config_arguments_JUCE_BROWSER_LINUX_DEPS:INTERNAL=webkit2gtk-4.0;gtk+-x11-3.0
+__pkg_config_arguments_JUCE_CURL_LINUX_DEPS:INTERNAL=libcurl
 __pkg_config_arguments_juce_audio_devices_LINUX_DEPS:INTERNAL=alsa
 __pkg_config_arguments_juce_graphics_LINUX_DEPS:INTERNAL=freetype2;fontconfig
+__pkg_config_arguments_juce_opengl_LINUX_DEPS:INTERNAL=gl
 __pkg_config_checked_JUCE_BROWSER_LINUX_DEPS:INTERNAL=1
 __pkg_config_checked_JUCE_CURL_LINUX_DEPS:INTERNAL=1
 __pkg_config_checked_juce_audio_devices_LINUX_DEPS:INTERNAL=1
@@ -577,24 +656,34 @@ juce_graphics_LINUX_DEPS_freetype2_VERSION:INTERNAL=24.1.18
 juce_opengl_LINUX_DEPS_CFLAGS:INTERNAL=
 juce_opengl_LINUX_DEPS_CFLAGS_I:INTERNAL=
 juce_opengl_LINUX_DEPS_CFLAGS_OTHER:INTERNAL=
-juce_opengl_LINUX_DEPS_FOUND:INTERNAL=
-juce_opengl_LINUX_DEPS_INCLUDEDIR:INTERNAL=
-juce_opengl_LINUX_DEPS_LIBDIR:INTERNAL=
+juce_opengl_LINUX_DEPS_FOUND:INTERNAL=1
+juce_opengl_LINUX_DEPS_INCLUDEDIR:INTERNAL=/usr/include
+juce_opengl_LINUX_DEPS_INCLUDE_DIRS:INTERNAL=
+juce_opengl_LINUX_DEPS_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lGL
+juce_opengl_LINUX_DEPS_LDFLAGS_OTHER:INTERNAL=
+juce_opengl_LINUX_DEPS_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+juce_opengl_LINUX_DEPS_LIBRARIES:INTERNAL=GL
+juce_opengl_LINUX_DEPS_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
 juce_opengl_LINUX_DEPS_LIBS:INTERNAL=
 juce_opengl_LINUX_DEPS_LIBS_L:INTERNAL=
 juce_opengl_LINUX_DEPS_LIBS_OTHER:INTERNAL=
 juce_opengl_LINUX_DEPS_LIBS_PATHS:INTERNAL=
-juce_opengl_LINUX_DEPS_MODULE_NAME:INTERNAL=
-juce_opengl_LINUX_DEPS_PREFIX:INTERNAL=
+juce_opengl_LINUX_DEPS_MODULE_NAME:INTERNAL=gl
+juce_opengl_LINUX_DEPS_PREFIX:INTERNAL=/usr
 juce_opengl_LINUX_DEPS_STATIC_CFLAGS:INTERNAL=
 juce_opengl_LINUX_DEPS_STATIC_CFLAGS_I:INTERNAL=
 juce_opengl_LINUX_DEPS_STATIC_CFLAGS_OTHER:INTERNAL=
+juce_opengl_LINUX_DEPS_STATIC_INCLUDE_DIRS:INTERNAL=
+juce_opengl_LINUX_DEPS_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lGL
+juce_opengl_LINUX_DEPS_STATIC_LDFLAGS_OTHER:INTERNAL=
 juce_opengl_LINUX_DEPS_STATIC_LIBDIR:INTERNAL=
+juce_opengl_LINUX_DEPS_STATIC_LIBRARIES:INTERNAL=GL
+juce_opengl_LINUX_DEPS_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
 juce_opengl_LINUX_DEPS_STATIC_LIBS:INTERNAL=
 juce_opengl_LINUX_DEPS_STATIC_LIBS_L:INTERNAL=
 juce_opengl_LINUX_DEPS_STATIC_LIBS_OTHER:INTERNAL=
 juce_opengl_LINUX_DEPS_STATIC_LIBS_PATHS:INTERNAL=
-juce_opengl_LINUX_DEPS_VERSION:INTERNAL=
+juce_opengl_LINUX_DEPS_VERSION:INTERNAL=1.2
 juce_opengl_LINUX_DEPS_gl_INCLUDEDIR:INTERNAL=
 juce_opengl_LINUX_DEPS_gl_LIBDIR:INTERNAL=
 juce_opengl_LINUX_DEPS_gl_PREFIX:INTERNAL=
@@ -624,11 +713,47 @@ package_to_be_found_webkit2gtk-4.1_INCLUDEDIR:INTERNAL=
 package_to_be_found_webkit2gtk-4.1_LIBDIR:INTERNAL=
 package_to_be_found_webkit2gtk-4.1_PREFIX:INTERNAL=
 package_to_be_found_webkit2gtk-4.1_VERSION:INTERNAL=
+//ADVANCED property for variable: pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_atk-1.0
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_atk-1.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_cairo
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_cairo-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_cairo-gobject
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_cairo-gobject-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_gdk-3
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_gdk-3-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_gdk_pixbuf-2.0
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_gdk_pixbuf-2.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_gio-2.0
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_gio-2.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_glib-2.0
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_glib-2.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_gmodule-2.0
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_gmodule-2.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_gobject-2.0
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_gobject-2.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_gtk-3
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_gtk-3-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_harfbuzz
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_harfbuzz-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_javascriptcoregtk-4.0
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_javascriptcoregtk-4.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_pango-1.0
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_pango-1.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_pangocairo-1.0
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_pangocairo-1.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_soup-2.4
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_soup-2.4-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_webkit2gtk-4.0
+pkgcfg_lib_JUCE_BROWSER_LINUX_DEPS_webkit2gtk-4.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_JUCE_CURL_LINUX_DEPS_curl
+pkgcfg_lib_JUCE_CURL_LINUX_DEPS_curl-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_juce_audio_devices_LINUX_DEPS_asound
 pkgcfg_lib_juce_audio_devices_LINUX_DEPS_asound-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_juce_graphics_LINUX_DEPS_fontconfig
 pkgcfg_lib_juce_graphics_LINUX_DEPS_fontconfig-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_juce_graphics_LINUX_DEPS_freetype
 pkgcfg_lib_juce_graphics_LINUX_DEPS_freetype-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_juce_opengl_LINUX_DEPS_GL
+pkgcfg_lib_juce_opengl_LINUX_DEPS_GL-ADVANCED:INTERNAL=1
 prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
 
