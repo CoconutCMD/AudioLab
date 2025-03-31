@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/AudioLab.dir/main.cpp.o -o AudioLab 
+/usr/bin/c++ -g CMakeFiles/AudioLab.dir/main.cpp.o -o AudioLab 
